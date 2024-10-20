@@ -1,0 +1,174 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.text-awal{
+    color: white;
+}
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color: red;
+    transition: .2s ease-in-out;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-shadow: #333;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.g-profile {
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    /* border-radius: 80%; */
+    margin-top: 50px;
+    padding-left: 100px;
+
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 180px;
+    margin-bottom: 50px;
+    padding-left:200px;
+    background-color: black;
+    color: white;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: black;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: red;
+    width: 100%;
+    line-height: 50px;  
+}
+
+.paragraf-satu {
+    font-size: 30px;
+    font-family: 'comis sans ms';
+    margin-bottom: 10px;
+    color: white;
+}
+
+.kalimat-satu {
+    font-size: 20px;
+}
+
+.logo-sosmed {
+    text-align: center;
+    margin-top: 5px;
+
+}
+.ig {
+    display: block;
+    width: 50px;
+    height: 50px;   
+    margin: 20px auto;
+    margin-right: 600px;
+}
+
+.box-pendidikan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.box-kiri, .box-tengah-dikit, .box-kanan-dikit, .box-kanan { 
+    border: 2px solid #ccc; 
+    padding: 10px;
+    margin-right: 150px;
+    width: 220px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box-tengah-dikit img, .box-kanan-dikit img, .box-kanan img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 60%; 
+    margin-bottom: 10px;
+}
+
+.logo-sd {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 60%; 
+    margin-bottom: 10px;
+}
+
+.logo-html {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 60%; 
+    margin-bottom: 10px;
+}
+
+
+.box-kiri:hover, .box-tengah-dikit:hover, .box-kanan-dikit:hover, .box-kanan:hover {
+    background-color: yellow;
+    transition: .2s ease-in-out;
+    border-radius: 30px;
+}
+
+
+h3 {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    background-color: transparent;
+}
+
