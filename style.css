@@ -98,7 +98,7 @@ h2 {
     margin-bottom: 30px;
     color: red;
     width: 100%;
-    line-height: 50px;  
+    line-height: 50px; 
 }
 
 .paragraf-satu {
@@ -194,7 +194,6 @@ h2 {
     border-radius: 30px;
 }
 
-
 h3 {
     margin: 10px 0 5px 0;
     font-size: 18px;
@@ -278,4 +277,23 @@ p {
     height: 200px;
     border: 2px solid #ccc;
     border-radius: 20px;
+}
+
+.input {
+    margin-top: -80px;
+}
+
+#nama {
+    color: white;
+
+}
+
+#masukan {
+    border-radius: 50px;
+    color: white;   
+}
+
+#button {
+    color: white;
+    border-radius: 30px;;
 }
